@@ -69,5 +69,3 @@ RestAssuredUtils class: Methods to perform API requests
 log4j.properties file: Properties of logging is defined. All classes are logged with INFO and ERROR level.
 logs folder: logs.log file is created once the test execution is complete
 
-Licensing
-This project is licensed under the terms of the MIT license.

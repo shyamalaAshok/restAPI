@@ -3,7 +3,7 @@ This repository demonstrate API test framework based on Cucumber BDD API framewo
 Installation (pre-requisites)
 JDK 1.9+ (make sure Java class path is set)
 Maven (make sure .m2 class path is set)
-Intelij
+Eclipse
 Maven
 Cucumber
 Maven dependencies
@@ -17,7 +17,7 @@ log4j
 Framework set up
 Fork / Clone repository from here or download zip and set it up in your local workspace.
 
-In Intelij-> import-> existing maven project
+In Eclipse-> import-> existing maven project
 Run time JRE is set to Java 9+
 Setting-up test runner class as per test requirement
 Existing test runner setup will run all the feature files under src/test/java/features/ tagged as @RestAPI
@@ -26,8 +26,8 @@ Run test-runner class using mvn command from command line
 Navigate to the project directory. Run command line from the directory. Typemvn clean test command to run test-runner file. With this command it will start executing feature files specified under test runner file
 
 To run test-runner file, use command 'mvn clean test'
-Run test-runner class directly from Intelij
-Open project workspace in Intelij
+Run test-runner class directly from Eclipse
+Open project workspace in Eclipse
 Right-click on root Project, select Run As->Maven Test
 
 Right-click on TestRunner.java, select Run As->JUnit Test `
